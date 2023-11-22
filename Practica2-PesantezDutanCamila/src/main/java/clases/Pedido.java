@@ -36,8 +36,7 @@ public class Pedido {
 	public String toString() {
 		return "Pedido [nombre=" + nombre + ", direccion=" + direccion + ", total=" + total + "]";
 	}
-	public void agregarPedido(Pedido pedido) {
-		// TODO Auto-generated method stub
+	public void agregarPedido(Pedido pedido) {
 		
 	}   
 
