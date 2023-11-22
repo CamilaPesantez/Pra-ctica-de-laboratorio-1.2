@@ -97,10 +97,12 @@ public class Usuario {
 	public List<Carrito> setCarritos() {
 		return carritos;
 	}
+
  public String getDireccion() {
 		return getDireccion() ;
 	}
-public String setDireccion() {
+
+ public String setDireccion() {
 		return setDireccion() ;
 	}
 	
