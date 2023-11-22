@@ -97,6 +97,12 @@ public class Usuario {
 	public List<Carrito> setCarritos() {
 		return carritos;
 	}
+ public String getDireccion() {
+		return getDireccion() ;
+	}
+public String setDireccion() {
+		return setDireccion() ;
+	}
 	
 	
 	
@@ -104,10 +110,6 @@ public class Usuario {
         System.out.println("Usuario registrado con éxito:\nNombre: " + nombre + "\nApellido: " + apellido + "\nNumeroCedula" + celular + "\nCorreo"+ correo+ "\nCelular"+ celular);
 	}
 
-
-	public String getDireccion() {
-		return getDireccion() ;
-	}
 
 }
 
